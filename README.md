@@ -43,9 +43,6 @@ And updates your `app/assets/javascripts/application.js` file adding this line:
 //= require hyperloop-loader
 ```
 
-Two more configurations files are added and you can know more about in the next <a href="#advanced-configuration">Advanced configuration</a> section.
-
-
 ### Simple HelloWorld
 
 
