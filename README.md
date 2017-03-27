@@ -12,7 +12,7 @@ Hyperloop has been tested with the most recent Ruby On Rails verions:<br> Rails 
 In your `Gemfile`
 
 ```ruby
-gem 'hyperloop'
+gem 'hyperloop', git: 'https://github.com/ruby-hyperloop/hyperloop.git'
 ```
 
 then

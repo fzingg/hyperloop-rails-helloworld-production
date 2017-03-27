@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/ruby-hyperloop/hyperloop.git
+  revision: 0f2a922e041a82a131aa9168c1efbb9526d08da3
+  specs:
+    hyperloop (0.5.2)
+      hyper-model
+      opal-browser
+      opal-rails (>= 0.8.1)
+      rails (>= 4.0.0)
+      react-rails (~> 1.9.0)
+      therubyracer
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,13 +117,6 @@ GEM
       opal-activesupport (>= 0.2.0)
     hyper-store (0.2.1)
       hyperloop-config (>= 0.9.2)
-    hyperloop (0.5.1)
-      hyper-model
-      opal-browser
-      opal-rails (>= 0.8.1)
-      rails (>= 4.0.0)
-      react-rails (~> 1.9.0)
-      therubyracer
     hyperloop-config (0.9.5)
       opal
       opal-browser
@@ -271,7 +276,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
-  hyperloop
+  hyperloop!
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)

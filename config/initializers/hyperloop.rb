@@ -1,4 +1,6 @@
+        
 Hyperloop.configuration do |config|
-	config.transport = :none
-  	config.import 'reactrb/auto-import'
+  config.transport = :simple_poller
+  config.import 'reactrb/auto-import'
 end
+
