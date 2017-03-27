@@ -1,8 +1,10 @@
 ## Hyperloop with Rails 5.0.2 HelloWorld sample app
 
+![Screen](https://github.com/ruby-hyperloop/hyperloop-js-helloworld/blob/master/hyperloophelloworldscreenshot.png)
+
 Hyperloop works great with new or existing rails apps, so it's pain free to introduce it to your application.
 
-Hyperloop has been tested with the most recent Ruby On Rails verions:<br> Rails (~> 4.2), Rails (~> 5.0) and the last Rails (5.1.0.rc1).
+Hyperloop has been tested with the most recent Ruby On Rails verions:<br> Rails (4.2), Rails (5.0) and the last Rails (5.1.0.rc1).
 
 
 ### Setup
