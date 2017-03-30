@@ -4,6 +4,10 @@
         # The following policy will open up full access (but only in development)
         # The policy system is very flexible and powerful.  See the documentation
         # for complete details.
+# class UserPolicy
+#   regulate_instance_connections { self }
+# end
+
 class Hyperloop::ApplicationPolicy
   # Allow any session to connect:
   always_allow_connection
