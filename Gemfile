@@ -54,3 +54,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'hyperloop'
+gem 'hyperloop-config', git: 'https://github.com/ruby-hyperloop/hyperloop-config.git'
