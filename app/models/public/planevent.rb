@@ -1,2 +1,0 @@
-class Planevent < ApplicationRecord
-end
