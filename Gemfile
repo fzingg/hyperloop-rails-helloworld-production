@@ -54,3 +54,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'hyperloop'
+gem 'opal_hot_reloader', git: 'https://github.com/fkchang/opal-hot-reloader.git'
+gem 'foreman'
