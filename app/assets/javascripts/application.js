@@ -7,6 +7,6 @@
 //= require_tree .
 
 
-//= require 'hyperloop-loader'
+//= require 'components'
 
-Opal.OpalHotReloader.$listen(25222, true)
+Opal.load('components');

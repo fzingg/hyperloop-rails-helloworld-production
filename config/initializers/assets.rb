@@ -13,3 +13,10 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 #Rails.application.config.opal.source_map_enabled = false
+
+
+Rails.application.config.assets.precompile += %w( hyper-console-client.css )
+Rails.application.config.assets.precompile += %w( hyper-console-client.min.js )
+Rails.application.config.assets.precompile += %w( action_cable.js )
+Rails.application.config.assets.precompile += %w( react-server.js)
+Rails.application.config.assets.precompile += %w( components.js)
