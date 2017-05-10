@@ -12,7 +12,6 @@ module HyperloopRailsHelloworld
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
-    #config.assets.precompile += %w(react-server.js components.js)
 
     config.hyperloop.auto_config = false
 
@@ -26,24 +25,11 @@ module HyperloopRailsHelloworld
     config.autoload_paths   -= %W(#{config.root}/app/hyperloop)
     config.eager_load_paths -= %W(#{config.root}/app/hyperloop)
 
-
-
-
     config.eager_load_paths += %W(#{config.root}/app/models)
     config.autoload_paths += %W(#{config.root}/app/models)
     
     config.eager_load_paths += %W(#{config.root}/app/hyperloop/operations)
     config.autoload_paths   += %W(#{config.root}/app/hyperloop/operations)
 
-
-    
-
-    
-    # config.autoload_paths   -= %W(#{config.root}/app/hyperloop)
-    # config.autoload_paths   += %W(#{config.root}/app/hyperloop/models)
-    # config.autoload_paths   += %W(#{config.root}/app/hyperloop/operations)
-    # config.eager_load_paths -= %W(#{config.root}/app/hyperloop)
-    # config.eager_load_paths += %W(#{config.root}/app/hyperloop/models)
-    # config.eager_load_paths += %W(#{config.root}/app/hyperloop/operations)
   end
 end
